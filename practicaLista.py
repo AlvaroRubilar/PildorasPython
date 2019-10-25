@@ -1,2 +1,2 @@
 miLista=["María","Pepe","Marta","Antonio"]
-print(miLista[:3])#deja el 3 afuera
+print(miLista[1:3])#imprime desde 1 hasta 2
