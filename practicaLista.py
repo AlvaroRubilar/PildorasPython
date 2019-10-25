@@ -1,2 +1,2 @@
 miLista=["María","Pepe","Marta","Antonio"]
-print(miLista[1:3])#imprime desde 1 hasta 2
+print(miLista[2:])#imprime desde 2 hasta el final
