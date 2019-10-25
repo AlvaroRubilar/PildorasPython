@@ -1,3 +1,2 @@
-miLista=["España","Francia","Reino Unido","Alemania"]
-miDiccionario={miLista[0]:"Madrid", miLista[1]:"París",miLista[2]:"Londres",miLista[3]:"Berlín"}
-print(miDiccionario)
+miDiccionario = {23:"Jordan","Nombre":"Michael","Equipo":"Chicago","Anillos":[1991,1992,1993,1996,1997,1998]}
+print(miDiccionario["Anillos"])
