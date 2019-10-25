@@ -3,3 +3,5 @@ miDiccionario["Italia"]="Lisboa"
 print(miDiccionario)
 miDiccionario["Italia"]="Roma"
 print(miDiccionario)
+del miDiccionario["Reino Unido"]
+print(miDiccionario)
