@@ -1,10 +1,11 @@
-def mensaje():#declaración
-    print("Estamos aprendiendo Python")
-    print("Estamos aprendiendo instrucciones básicas")
-    print("Paso a iremos avanzando ")
+def suma():
+    num1=5
+    num2=7
+    print(num1+num2)
 
-mensaje()#llamada función
-mensaje()
-print("Ejecutando código fuera de la función")
-mensaje()
+suma()
+suma()
+suma()
+    
+
 
