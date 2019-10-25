@@ -1,4 +1,2 @@
-miLista = ["Juan", 13, 1, 1995]
-miTupla = tuple(miLista)
-
+miTupla = ("Juan",)
 print(len(miTupla))
