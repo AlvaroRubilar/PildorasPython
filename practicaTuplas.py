@@ -1,2 +1,6 @@
-miTupla = "Juan", 13, 1, 1995
-print(miTupla)
+miTupla = ("Juan", 13, 1, 1995)
+nombre, dia, mes, agno=miTupla
+print(nombre)
+print(dia)
+print(agno)
+print(mes)
