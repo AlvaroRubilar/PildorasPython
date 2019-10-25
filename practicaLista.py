@@ -1,2 +1,2 @@
 miLista=["María","Pepe","Marta","Antonio"]
-print(miLista[:])
+print(miLista[2])
