@@ -1,4 +1,4 @@
-miLista = ["María", "Pepe", "Marta", "Antonio"]
+miLista = ["María", 5, True, 78.5]
 miLista.extend(["Sandra", "Ana", "Lucía"])
 
-print("Pepe"in miLista)
+print(miLista[2])
