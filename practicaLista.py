@@ -1,4 +1,4 @@
-miLista=["María","Pepe","Marta","Antonio"]
-miLista.insert(2,"Sandra")#se agrega en la tercera posición
+miLista = ["María", "Pepe", "Marta", "Antonio"]
+miLista.extend(["Sandra", "Ana", "Lucía"])
 
 print(miLista[:])
