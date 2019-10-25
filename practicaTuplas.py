@@ -1,3 +1,4 @@
-miTupla=("Juan", 13, 1, 1995)
-miLista=list(miTupla)
-print(miLista)
+miLista=["Juan", 13, 1, 1995]
+miTupla=tuple(miLista)
+
+print(miTupla)
