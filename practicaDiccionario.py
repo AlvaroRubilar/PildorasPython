@@ -1,7 +1,2 @@
-miDiccionario={"Alemania":"Berlín", "Francia":"París","Reino Unido":"Londres","España":"Madrid"}
-miDiccionario["Italia"]="Lisboa"
-print(miDiccionario)
-miDiccionario["Italia"]="Roma"
-print(miDiccionario)
-del miDiccionario["Reino Unido"]
+miDiccionario={"Alemania":"Berlín",23:"Jordan","Mosqueteros":3}
 print(miDiccionario)
