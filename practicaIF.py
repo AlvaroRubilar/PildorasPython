@@ -1,5 +1,5 @@
 print("programa de evaluación de notas de alumnos")
-notaAlumno = input()
+notaAlumno = input("Introduce la nota del alumno")
 
 
 def evaluacion(nota):
@@ -7,4 +7,4 @@ def evaluacion(nota):
     return valoracion
 
 
-print(evaluacion(notaAlumno))
+print(evaluacion(int(notaAlumno)))
