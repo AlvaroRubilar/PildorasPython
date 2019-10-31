@@ -1,9 +1,12 @@
 print("verificación de acceso")
-edadUsuario = int(input("Introduce tu edad, por favor: "))
-if edadUsuario < 18:
-    print("No puedes pasar")
-elif edadUsuario > 100:
-    print("Edad incorrecta")
+notaAlumno = float(input("Introduce tu edad, por favor: "))
+if notaAlumno<5:
+    print("Insuficiente")
+if notaAlumno<6:
+    print("Suficiente")
+if notaAlumno<7:
+    print("Bien")
+if notaAlumno<9:
+    print("Notable")
 else:
-    print("Puedes pasar")
-print("El programa ha terminado")
+    print("Sobresaliente")
