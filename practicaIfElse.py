@@ -1,5 +1,9 @@
 print("verificación de acceso")
 edadUsuario = int(input("Introduce tu edad, por favor: "))
-print("No puedes pasar" if 0 < edadUsuario < 18 else "Puedes pasar"if 0 <
-      edadUsuario < 110 else "Edad incorrecta")
-print("El programa ha finalizado")
+if edadUsuario < 18:
+    print("No puedes pasar")
+elif edadUsuario > 100:
+    print("Edad incorrecta")
+else:
+    print("Puedes pasar")
+print("El programa ha terminado")
