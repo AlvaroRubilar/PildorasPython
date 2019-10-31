@@ -1,12 +1,12 @@
 print("verificación de acceso")
-notaAlumno = float(input("Introduce tu edad, por favor: "))
+notaAlumno = float(input("Introduce tu nota, por favor: "))
 if notaAlumno<5:
     print("Insuficiente")
-if notaAlumno<6:
+elif notaAlumno<6:
     print("Suficiente")
-if notaAlumno<7:
+elif notaAlumno<7:
     print("Bien")
-if notaAlumno<9:
+elif notaAlumno<9:
     print("Notable")
 else:
     print("Sobresaliente")
