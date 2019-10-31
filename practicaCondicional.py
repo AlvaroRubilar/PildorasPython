@@ -1,14 +1,13 @@
-salarioPresidente = int(input("Introduce el salario del presidente "))
-print("Salario presidente: "+str(salarioPresidente))
+print("Programa de becas año 2019")
 
-salarioDirector = int(input("Introduce el salario del director "))
-print("Salario director: "+str(salarioDirector))
+distanciaEscuela = int(input("Introduce la distancia a la escuela en km "))
+print(distanciaEscuela)
 
-salarioJefeArea = int(input("Introduce el salario del jefe de área "))
-print("Salario jefe de área: "+str(salarioJefeArea))
+numeroHermanos = int(input("Introduce el n° de hermanos en el centro "))
+print(numeroHermanos)
 
-salarioAdministrativo = int(input("Introduce el salario del administrativo "))
-print("Salario administrativo: "+str(salarioAdministrativo))
+salarioFamiliar = int(input("Introduce salario anual en bruto "))
+print(salarioFamiliar)
 
-print("Todo funciona correctamente " if salarioAdministrativo < salarioJefeArea <
-      salarioDirector < salarioPresidente else "Algo falla en la empresa")
+print("Tienes derecho a beca" if distanciaEscuela > 40 and numeroHermanos >
+      2 and salarioFamiliar <= 20000 else "No tienes derecho a beca")
