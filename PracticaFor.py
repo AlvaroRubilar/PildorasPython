@@ -1,2 +1,2 @@
-for i in ["primavera","verano","otoño","invierno"]:
-    print(i)
+for i in ["Pildoras","Informáticas",3]:
+    print("Hola")
