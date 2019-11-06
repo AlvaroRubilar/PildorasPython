@@ -1,2 +1,2 @@
-for i in ["Pildoras", "Informáticas", 3]:
+for i in "pildorasinformaticas.es":
     print("Hola", end=" ")
