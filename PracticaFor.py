@@ -1,6 +1,7 @@
-email = False
+contador = 0
+
 miEmail = input("Introduce tu dirección de email: ")
 for i in miEmail:
-    if (i == "@"):
-        email = True
-print("El email es correcto"if email == True else "El email no es correcto")
+    if (i == "@" or i == "."):
+        contador = contador + 1
+print("El email es correcto"if contador >= 2 else "El email no es correcto")
