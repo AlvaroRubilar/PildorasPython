@@ -1,2 +1,2 @@
 for i in range(5):
-    print(f"elvalor de la variable {i}")
+    print(f"el valor de la variable {i}")
