@@ -1,3 +1,6 @@
 for letra in "Pyhton":
-    print("Viendo la letra " + letra)
     
+    if letra=="h":
+        continue
+    print("Viendo la letra " + letra)
+
