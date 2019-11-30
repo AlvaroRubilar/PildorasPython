@@ -1,6 +1,4 @@
-for letra in "Pyhton":
-    
-    if letra=="h":
-        continue
-    print("Viendo la letra " + letra)
+nombre = "Pildoras informaticas"
+
+print(len(nombre))
 
