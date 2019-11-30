@@ -7,5 +7,9 @@ def generaPares(limite):
 
 
 devuelvePares = generaPares(10)
-for i in devuelvePares:
-    print(i)
+
+print(next(devuelvePares))
+print("Aquí podría ir más código")
+print(next(devuelvePares))
+print("Aquí podría ir más código")
+print(next(devuelvePares))
