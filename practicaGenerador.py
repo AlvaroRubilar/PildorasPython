@@ -1,9 +1,11 @@
 def generaPares(limite):
-    num=1
-    miLista=[]
-    while num<limite:
-        miLista.append(num*2)
-        num+=1
-    return miLista
+    num = 1
 
-print(generaPares(10))
+    while num < limite:
+        yield num*2
+        num += 1
+
+
+devuelvePares = generaPares(10)
+for i in devuelvePares:
+    print(i)
