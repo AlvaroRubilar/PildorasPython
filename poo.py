@@ -6,8 +6,9 @@ class Coche():
 
     def arrancar(self):
         self.enMarcha = True
+
     def estado(self):
-        if(self.enMarcha):
+        if (self.enMarcha):
             return "El Coche está en marcha"
         else:
             return "El Coche está parado"
@@ -18,3 +19,9 @@ print("El largo del coche es: ", miCoche.largoChasis)
 print("El coche tiene", miCoche.ruedas, " ruedas")
 miCoche.arrancar()
 print(miCoche.estado())
+print("--------------------A contiuaación creamos el segundo objeto----------------------")
+miCoche2 = Coche()
+print("El largo del coche es: ", miCoche2.largoChasis)
+print("El coche tiene", miCoche2.ruedas, " ruedas")
+
+print(miCoche2.estado())
