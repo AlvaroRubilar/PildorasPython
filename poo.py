@@ -17,13 +17,11 @@ class Coche():
 
 
 miCoche = Coche()
-print("El largo del coche es: ", miCoche.largoChasis)
-print("El coche tiene", miCoche.ruedas, " ruedas")
+
 print(miCoche.arrancar(True))
 miCoche.estado()
 print("--------------------A contiuaación creamos el segundo objeto----------------------")
 miCoche2 = Coche()
-print("El largo del coche es: ", miCoche2.largoChasis)
-print("El coche tiene", miCoche2.ruedas, " ruedas")
+
 print(miCoche2.arrancar(False))
 miCoche2.estado()
