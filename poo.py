@@ -25,4 +25,5 @@ print("--------------------A contiuaación creamos el segundo objeto------------
 miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
+miCoche2.ruedas = 5
 miCoche2.estado()
