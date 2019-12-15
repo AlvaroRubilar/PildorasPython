@@ -7,7 +7,8 @@ def divide():
         print("El valor introducido es erroneo")
     except ZeroDivisionError:
         print("No se puede dividir por cero")
-    print("Cálculo finalizado")
+    finally:
+        print("Cálculo finalizado")
 
 
 divide()
