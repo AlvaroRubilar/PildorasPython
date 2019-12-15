@@ -1,8 +1,9 @@
 class Coche():
-    largoChasis = 250
-    anchoChasis = 120
-    ruedas = 4
-    enMarcha = False
+    def __init__(self):
+        self.largoChasis = 250
+        self.anchoChasis = 120
+        self.ruedas = 4
+        self.enMarcha = False
 
     def arrancar(self, arrancamos):
         self.enMarcha = arrancamos
