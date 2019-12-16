@@ -18,7 +18,19 @@ class Vehiculos():
     def estado(self):
         print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ", self.enMarcha, "\nAcelerando: ",
               self.acelera, "\nFrenando: ", self.frena)
+
+
 class Moto(Vehiculos):
-    pass
-miMoto=Moto("Honda","CBR")
+    hcaballito = ""
+
+    def caballito(self):
+        self.hcaballito = "voy haciendo el caballito"
+
+    def estado(self):
+        print("Marca: ", self.marca, "\nModelo: ", self.modelo, "\nEn Marcha: ", self.enMarcha, "\nAcelerando: ",
+              self.acelera, "\nFrenando: ", self.frena, "\n", self.hcaballito)
+
+
+miMoto = Moto("Honda", "CBR")
+miMoto.caballito()
 miMoto.estado()
