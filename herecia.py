@@ -20,6 +20,12 @@ class Vehiculos():
               self.acelera, "\nFrenando: ", self.frena)
 
 
+class Furgoneta(Vehiculos):
+    def carga(self, cargar):
+        self.cargado = cargar
+        return "La furgoneta está cargada" if self.cargado else "La furgoneta no está cargada"
+
+
 class Moto(Vehiculos):
     hcaballito = ""
 
@@ -34,3 +40,8 @@ class Moto(Vehiculos):
 miMoto = Moto("Honda", "CBR")
 miMoto.caballito()
 miMoto.estado()
+miFurgoneta=Furgoneta("Renault","Kangoo")
+miFurgoneta.arrancar()
+miFurgoneta.estado()
+print(miFurgoneta.carga(True))
+
