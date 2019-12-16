@@ -37,7 +37,7 @@ miCoche = Coche()
 print(miCoche.arrancar(True))
 miCoche.estado()
 
-print("--------------------A contiuaación creamos el segundo objeto----------------------")
+print("--------------------A contiuación creamos el segundo objeto----------------------")
 miCoche2 = Coche()
 
 print(miCoche2.arrancar(False))
