@@ -14,6 +14,10 @@ class Empleado(Persona):
         self.salario = salario
         self.antiguedad = antiguedad
 
+    def descripcion(self):
+        super().descripcion()
+        print("Salario: ", self.salario, "\nAntigüedad", self.antiguedad)
+
 
 Antonio = Empleado(1500, 15, "Manuel", 55, "Colombia")
 Antonio.descripcion()
