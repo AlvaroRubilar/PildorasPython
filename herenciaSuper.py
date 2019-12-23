@@ -9,11 +9,11 @@ class Persona():
 
 
 class Empleado(Persona):
-    def __init__(self, salario, antiguedad):
-        super().__init__("Antonio", 55, "España")
+    def __init__(self, salario, antiguedad, nombreEmpleado, edadEmpleado, residenciaEmpleado):
+        super().__init__(nombreEmpleado, edadEmpleado, residenciaEmpleado)
         self.salario = salario
         self.antiguedad = antiguedad
 
 
-Antonio = Empleado(1500, 15)
+Antonio = Empleado(1500, 15, "Manuel", 55, "Colombia")
 Antonio.descripcion()
