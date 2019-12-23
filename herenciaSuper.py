@@ -19,6 +19,6 @@ class Empleado(Persona):
         print("Salario: ", self.salario, "\nAntigüedad", self.antiguedad)
 
 
-Antonio = Empleado(1500, 15, "Manuel", 55, "Colombia")
-Antonio.descripcion()
-print(isinstance(Antonio, Persona))
+Manuel = Persona( "Manuel", 55, "Colombia")
+Manuel.descripcion()
+print(isinstance(Manuel, Empleado))
