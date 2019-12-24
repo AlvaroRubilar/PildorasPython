@@ -1,4 +1,4 @@
-from funcionesMatematicas import *
+from modulos.funcionesMatematicas import *
 
 sumar(7, 5)
 restar(8, 9)
