@@ -1,3 +1,3 @@
-from calculos.calculosGenerales import potencia
+from calculos.calculosGenerales import *
 
-potencia(3, 4)
+redondeo(4.3)
