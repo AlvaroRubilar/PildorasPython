@@ -1,3 +1,2 @@
-from calculos.calculosGenerales import *
-
-redondeo(4.3)
+from calculos.basicos.operacionesBasicas import *
+sumar(5, 7)
