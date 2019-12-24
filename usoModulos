@@ -1,2 +1,2 @@
-from calculos.basicos.operacionesBasicas import *
-sumar(5, 7)
+from calculos.redondeoPotencias.redondeaYPotencias import *
+potencia(5, 7)
