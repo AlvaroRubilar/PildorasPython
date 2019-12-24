@@ -1,3 +1,3 @@
 nombreUsuario = input("Introduce tu nombre de usuario: ")
-print("El nombre es: " + nombreUsuario.upper())
+print("El nombre es: " + nombreUsuario.lower())
 
