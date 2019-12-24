@@ -1,4 +1,4 @@
-import funcionesMatematicas
+from funcionesMatematicas import sumar
 
-funcionesMatematicas.sumar(7, 5)
-funcionesMatematicas.restar(9,5)
+sumar(7, 5)
+
