@@ -1,6 +1,5 @@
 from io import open
 
-archivoTexto = open("archivo.txt", "r")
-lineasTexto = archivoTexto.readlines()
-archivoTexto.close()
-print(lineasTexto[0])
+archivoTexto = open("archivo.txt", "a")
+archivoTexto.write("\n siempre es una buena ocasión para estudiar Python")
+
