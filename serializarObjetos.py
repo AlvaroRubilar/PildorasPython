@@ -33,3 +33,8 @@ fichero = open("losCoches","wb")
 pickle.dump(coches, fichero)
 fichero.close()
 del(fichero)
+ficheroApertura = open("losCoches","rb")
+misCoches = pickle.load(ficheroApertura)
+ficheroApertura.close()
+for c in misCoches :
+    print(c)
