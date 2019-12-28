@@ -45,6 +45,9 @@ class ListaPersonas:
             print(p)
 
 miLista = ListaPersonas()
-persona = Persona("Sandra","Femenino",29)
+
+persona = Persona("Antonio","Masculino",49)
+miLista.agregarPersonas(persona)
+persona = Persona("Ana","Femenino",19)
 miLista.agregarPersonas(persona)
 miLista.mostrarInfoFicheroExterno()
