@@ -29,10 +29,22 @@ class ListaPersonas:
 
     def agregarPersonas(self, p):
         self.personas.append(p)
+        self.guardarPersonasEnFicheroExterno()
 
     def mostrarPersonas(self):
         for p in self.personas:
             print(p)
-
+    def guardarPersonasEnFicheroExterno(self):
+        listaDePersonas = open("ficheroExterno","wb")
+        pickle.dump(self.personas, listaDePersonas)
+        listaDePersonas.close()
+        del(listaDePersonas)
+    def mostrarInfoFicheroExterno(self):
+        print("La información del fichero externo es la siguiente:")
+        for p in self.personas:
+            print(p)
 
 miLista = ListaPersonas()
+persona = Persona("Sandra","Femenino",29)
+miLista.agregarPersonas(persona)
+miLista.mostrarInfoFicheroExterno()
