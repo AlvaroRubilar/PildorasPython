@@ -4,4 +4,5 @@ archivoTexto = open("archivo.txt", "r")
 
 #archivoTexto.seek(11)
 print(archivoTexto.read(11))
+print(archivoTexto.read())
 
