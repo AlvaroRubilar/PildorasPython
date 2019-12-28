@@ -2,7 +2,7 @@ from io import open
 
 archivoTexto = open("archivo.txt", "r")
 
-#archivoTexto.seek(11)
-print(archivoTexto.read(11))
+archivoTexto.seek(len(archivoTexto.read())/2)
 print(archivoTexto.read())
+
 
