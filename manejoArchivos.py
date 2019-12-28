@@ -1,5 +1,6 @@
 from io import open
+
 archivoTexto = open("archivo.txt", "r")
-texto = archivoTexto.read()
+lineasTexto = archivoTexto.readlines()
 archivoTexto.close()
-print(texto)
+print(lineasTexto)
