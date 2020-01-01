@@ -1,9 +1,9 @@
 from tkinter import *
-root =Tk()
+
+root = Tk()
 miFrame = Frame(root, width=500, height=400)
 miFrame.pack()
-miImagen = PhotoImage(file = "golden.png")
-Label(miFrame, image=miImagen).place(x=100,y=200)
-
+miImagen = PhotoImage(file="golden.png")
+Label(miFrame, image=miImagen).place(x=100, y=200)
 
 root.mainloop()
