@@ -11,9 +11,11 @@ cuadroDireccion = Entry(miFrame)
 cuadroDireccion.grid(row=2,column=1)
 
 nombreLabel = Label(miFrame, text="Nombre: ")
-nombreLabel.grid(row=0, column=0)
+nombreLabel.grid(row=0, column=0, sticky="w")
+
 apellidoLabel = Label(miFrame, text="Apellido: ")
-apellidoLabel.grid(row=1, column=0)
-direccionLabel = Label(miFrame, text="Dirección: ")
-direccionLabel.grid(row=2, column=0)
+apellidoLabel.grid(row=1, column=0, sticky="w")
+
+direccionLabel = Label(miFrame, text="Dirección de Casa: ")
+direccionLabel.grid(row=2, column=0, sticky="w")
 raiz.mainloop()
